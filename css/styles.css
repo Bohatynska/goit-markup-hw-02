@@ -1,2 +1,64 @@
 body {
+  background-color: white;
+  font-family: roboto sans-serif;
+  font-style: normal;
+}
+/*header*/
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.header-logo-disign {
+  color: black;
+}
+.header-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.header-link-dising {
+  color: #2196f3;
+}
+.header-contact-tel {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.header-contact-mail {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.hero-button {
+  background: #f5f4fa;
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+/*main*/
+.text-item {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.text-item-p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
 }
