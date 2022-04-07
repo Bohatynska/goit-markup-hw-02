@@ -1,19 +1,31 @@
 body {
-  background-color: white;
-  font-family: roboto sans-serif;
+  color: #212121;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
   font-style: normal;
 }
-/*header*/
+ul {
+  list-style: none;
+}
+/*---------------Header---------------*/
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  color: #2196f3;
 }
-.header-logo-disign {
-  color: black;
+.header-logo-logo {
+  color: #212121;
+}
+.header-nav :hover,
+.header-nav :focus {
+  color: blue;
+}
+.header-logo-link {
+  color: #2196f3;
 }
 .header-link {
   font-family: "Roboto";
@@ -21,44 +33,80 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  text-decoration: none;
 }
-.header-link-dising {
-  color: #2196f3;
-}
-.header-contact-tel {
-  font-family: "Roboto";
+.contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
-.header-contact-mail {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: #757575;
+.contact .mail :hover,
+.contact .mail :focus {
+  color: blue;
 }
-.hero-button {
-  background: #f5f4fa;
-  color: #212121;
-  font-family: "Roboto";
+/*-----------------HERO--------------*/
+/*-----------------HERO FILTERS------*/
+.filters {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
 }
-/*main*/
+.filters-btn {
+  font-family: inherit;
+}
+.filters-btn :hover,
+.filters-btn :focus {
+  color: blue;
+}
+/*-----------------MAIN --------------*/
 .text-item {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
 }
 .text-item-p {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: #757575;
+}
+/*-----------------FOOTER--------------*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.footer-logo-logo {
+  color: #ffffff;
+}
+.footer-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-list {
+  font-style: normal;
+}
+.footer :hover,
+.footer :focus {
+  color: blue;
 }
