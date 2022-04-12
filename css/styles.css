@@ -206,6 +206,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-first-color);
+  text-decoration: none;
 }
 .footer-item:hover,
 .footer-item:focus {
@@ -217,6 +218,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-second-color);
+  text-decoration: none;
 }
 .footer-mail:hover,
 .footer-mail:focus {
@@ -229,8 +231,12 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-second-color);
+  text-decoration: none;
 }
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+}
+.footer-list.link {
+  text-decoration: none;
 }
